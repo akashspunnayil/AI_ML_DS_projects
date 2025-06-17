@@ -1,3 +1,6 @@
 [submodule "Face_Detection"]
 	path = Face_Detection
 	url = https://github.com/akashspunnayil/Face_Detection
+[submodule "House_Intrusion_Detection"]
+	path = House_Intrusion_Detection
+	url = https://github.com/akashspunnayil/House_Intrusion_Detection/
