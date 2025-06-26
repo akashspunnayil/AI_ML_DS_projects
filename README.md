@@ -53,17 +53,17 @@ Each project is structured as a Jupyter notebook or Python app, and addresses a 
 | `16_Object_detection_YOLO_traffic2` | Object detection on traffic videos with frame annotation. |
 | `17_Real-time-face-detection-YOLO` | Live face detection using webcam and YOLOv8. |
 | `18_Object_detection_input_traffic_video` | Object detection on custom traffic video input with export. |
-
+| `19_Face_detection_and_count_haarcascade_yolo` | Compare face detection using Haarcascade vs YOLO and count faces. |
 ---
 
-### 5. 😊 Face Detection & Streamlit Apps
+### 5. 🖥️ Streamlit Apps
 
 | File | Description |
 |------|-------------|
-| `19_Face_detection_and_count_haarcascade_yolo` | Compare face detection using Haarcascade vs YOLO and count faces. |
-| `House_Intrusion_Detection` | Webcam-based intruder alert system using YOLO and optional email alerts. |
-| `Face_Mask_Detection` | YOLO-based face mask detection app with image, video, webcam input. |
-| `Face_Detection` | Traditional face/eye/smile detection using Haarcascade via Streamlit UI. |
+| `Face_Detection` | Traditional face/eye/smile detection using Haarcascade via Streamlit UI. |see app: https://a-face-detection-app.streamlit.app/?app=face-detection |
+| `House_Intrusion_Detection` | Webcam-based intruder alert system using YOLO and optional email alerts. |see app: https://a-house-intrusion-detection-app.streamlit.app |
+| `Face_Mask_Detection` | YOLO-based face mask detection app with image, video, webcam input. |see app: https://facemask-app.streamlit.app/ |
+
 
 ---
 
