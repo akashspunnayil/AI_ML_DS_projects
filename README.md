@@ -60,7 +60,7 @@ Each project is structured as a Jupyter notebook or Python app, and addresses a 
 
 | App Name | Description | Live Demo |
 |----------|-------------|-----------|
-| `Face_Detection` | Traditional face/eye/smile detection using Haarcascade via Streamlit UI. | [View App](https://a-face-detection-app.streamlit.app/?app=face-detection) |
+| `Face_Detection` | Traditional face/eye/smile detection using Haarcascade via Streamlit UI. | [View App](https://a-face-detection-app.streamlit.app/) |
 | `House_Intrusion_Detection` | Webcam-based intruder alert system using YOLO and optional email alerts. | [View App](https://a-house-intrusion-detection-app.streamlit.app) |
 | `Face_Mask_Detection` | YOLO-based face mask detection app with image, video, webcam input. | [View App](https://facemask-app.streamlit.app/) |
 
