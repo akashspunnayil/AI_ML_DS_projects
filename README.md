@@ -2,7 +2,7 @@
 
 # 🔍 Machine Learning, Computer Vision, and Deep Learning Projects
 
-This repository contains a collection of applied notebooks and Streamlit apps focusing on **machine learning**, **image classification**, **data augmentation**, and **object detection** using popular libraries such as `scikit-learn`, `Keras`, `TensorFlow`, `YOLOv8`, and `OpenCV`.
+This repository contains a collection of applied notebooks and Streamlit apps focusing on **machine learning**, **image classification**, **data augmentation**, and **object detection**.
 
 Each project is structured as a Jupyter notebook or Python app, and addresses a specific real-world or academic use case.
 
