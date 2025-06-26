@@ -70,12 +70,79 @@ Each project is structured as a Jupyter notebook or Python app, and addresses a 
 
 ## 📦 Core Tools & Libraries
 
-- **Machine Learning**: `scikit-learn`, `xgboost`
-- **Deep Learning**: `tensorflow`, `keras`
-- **Computer Vision**: `opencv-python`, `PIL`
-- **Object Detection**: `ultralytics` (YOLOv8)
-- **Visualization**: `matplotlib`, `seaborn`, `plotly`
-- **Apps**: `streamlit`
+### 🧠 Machine Learning & Statistical Modeling
+- `scikit-learn`: Core ML models, preprocessing, pipelines, evaluation
+  - **Regression Models**: `LinearRegression`, `Ridge`, `Lasso`, `PolynomialFeatures`
+  - **Classification Models**: `LogisticRegression`, `KNeighborsClassifier`, `SVC`
+  - **Tree-based Models**: `DecisionTreeRegressor`, `DecisionTreeClassifier`, `RandomForestRegressor`, `RandomForestClassifier`, `ExtraTreesClassifier`
+  - **Ensemble Methods**: `GradientBoostingClassifier`, `VotingClassifier`, `StackingClassifier`
+  - **Metrics & Tools**: `classification_report`, `confusion_matrix`, `roc_auc_score`, `train_test_split`, `cross_val_score`
+  - **Hyperparameter Tuning**: `GridSearchCV`, `RandomizedSearchCV`, `Pipeline`, `StandardScaler`, `MinMaxScaler`
+
+- `xgboost`: Efficient boosting algorithm used for both classification and regression with hyperparameter tuning via `GridSearchCV`.
+
+- `statsmodels` *(optional)*: Advanced statistical modeling and regression diagnostics (can be extended for inference).
 
 ---
+
+### 🧪 Deep Learning & Image Classification
+- `tensorflow`, `keras`: ANN & CNN modeling on MNIST, Fashion-MNIST, CIFAR-10
+  - Dense Networks (MLPs)
+  - CNNs with `Conv2D`, `MaxPooling2D`, `Dropout`, `Flatten`
+  - Transfer Learning: `VGG16` from `keras.applications`
+- `keras.preprocessing.image`: Image loading, flow from directory, augmentation
+- `keras.utils`: Label encoding (`to_categorical`), utility conversions
+- `keras.models`: Model saving, loading, serialization
+- `keras.callbacks`: `EarlyStopping`, `ModelCheckpoint`, `ReduceLROnPlateau`
+
+---
+
+### 🎨 Data Visualization
+- `matplotlib`: Static plots, subplots, heatmaps, animation
+- `seaborn`: Statistical graphics, pair plots, violin plots, heatmaps
+- `plotly`: Interactive plots (e.g., in Streamlit)
+- `PIL` (Pillow): Image processing and display
+- `gridspec`, `mpl_toolkits.axes_grid1`: Layout design and axis management
+
+---
+
+### 📸 Computer Vision & Image Processing
+- `opencv-python`: Real-time video frame processing, image annotation, webcam integration
+- `cv2.dnn`: Deep Neural Network module (used with Haarcascade in legacy detection)
+- `albumentations` *(optional)*: High-performance image augmentation
+- `imageio`, `moviepy.editor`: Creating and exporting GIFs and annotated video
+
+---
+
+### 🛰️ Object Detection & Image Annotation
+- `ultralytics`: YOLOv8 model inference and visualization
+- `torch`: Backend engine used by YOLO models (in `ultralytics`)
+- `cvzone` *(optional)*: Overlay utilities for real-time annotation
+
+---
+
+### 📁 Data Handling & Utilities
+- `numpy`: Core numerical computing
+- `pandas`: DataFrame operations, grouping, filtering, transformations
+- `os`, `glob`: File path handling and batch operations
+- `tempfile`: Used for temporary storage of uploaded files in Streamlit
+- `io`, `base64`: Encoding media (e.g., for image/video preview in Streamlit)
+
+---
+
+### 🌐 App Development
+- `streamlit`: UI framework for building ML and CV dashboards
+- `streamlit.components.v1`: Embed HTML or external elements
+- `streamlit_webrtc` *(optional)*: Real-time webcam streaming in apps
+
+---
+
+### 📧 Notification & System Integration (App Specific)
+- `smtplib`, `email.message`: For sending email alerts (intrusion detection)
+- `dotenv`: Manage credentials via `.env` (email username, password)
+- `time`, `datetime`: Timestamping frames, logs, and real-time triggers
+- `re`: Regular expressions (e.g., parsing filenames, labels)
+
+---
+
 
