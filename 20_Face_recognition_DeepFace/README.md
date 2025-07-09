@@ -21,6 +21,7 @@ This project performs:
 
 ## 📁 File Structure
 
+```
 face_recognition/
 ├── project/
 │ ├── known_faces/ # Folder with known face images (e.g., "person1.jpg", "person2.jpg")
@@ -30,7 +31,7 @@ face_recognition/
 ├── face_recognition_deepface_cuda_version.ipynb # GPU-enabled Colab version
 ├── face_recognition_deepface_non_cuda_version.ipynb # CPU version using saved pkl files
 └── README.md # This file
-
+```
 
 
 
