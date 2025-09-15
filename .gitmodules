@@ -7,3 +7,9 @@
 [submodule "Face_Mask_Detection"]
 	path = Face_Mask_Detection
 	url = https://github.com/akashspunnayil/Face_Mask_Detection.git
+[submodule "NLP_Sentiment_Analysis"]
+	path = NLP_Sentiment_Analysis
+	url = https://github.com/akashspunnayil/NLP_Sentiment_Analysis.git
+[submodule "Resume_Parser"]
+	path = Resume_Parser
+	url = https://github.com/akashspunnayil/Resume_Parser.git
