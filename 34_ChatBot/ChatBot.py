@@ -135,7 +135,8 @@ get_ipython().system('python -m openai migrate')
 # # https://platform.openai.com/api-keys
 # # pip install openai
 # import openai
-# openai.api_key = "your openai api key"
+# import os
+# openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # def api_chatbot(user_input):
 #     response = openai.ChatCompletion.create(
